@@ -15,7 +15,7 @@ print(Reciprocal(5, 42, 16))
 
 
 # Looking for the fraction notation of a rational number given its repeating and non-repeating digits, in any base
-number = Reciprocal(69)
+number = Reciprocal(base=69)
 number.set_dp([55, 17, 14, 47, 14, 16, 14, 23, 13, 50, 15], [61, 14, 21, 13, 10])
 number.find_dn() # finds fraction numerator (d) and denominator (n), variable names made sense way back when
 print(number) # This took too long
